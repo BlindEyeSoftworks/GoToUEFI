@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoToUEFI", "src\GoToUEFI.csproj", "{3C540F42-23E7-4288-ACAE-00D96C7D74D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C540F42-23E7-4288-ACAE-00D96C7D74D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C540F42-23E7-4288-ACAE-00D96C7D74D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C540F42-23E7-4288-ACAE-00D96C7D74D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C540F42-23E7-4288-ACAE-00D96C7D74D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA1201DD-60FE-495B-9CB1-B445D7602095}
+	EndGlobalSection
+EndGlobal
