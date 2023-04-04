@@ -94,7 +94,7 @@ namespace GoToUEFI
 
             if (!adjustTokenResult || lastWin32Error == (int)SYSTEM_ERROR.ERROR_NOT_ALL_ASSIGNED)
                 FatalError("The operation could not be completed due to insufficient privileges.",
-                    Marshal.GetLastWin32Error());
+                    lastWin32Error);
         }
 
         static void FatalError(string errorMessage, int errorCode)
